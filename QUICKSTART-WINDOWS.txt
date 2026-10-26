@@ -1,0 +1,44 @@
+LEPA v5 — QUICK START (WINDOWS, NO DOCKER)
+
+1. Extract to a fresh folder, e.g.
+   C:\Projects\lepa-native-windows-v5
+
+2. Run:
+   setup-lepa.bat
+
+3. Edit .env and optionally add:
+   OPENROUTER_API_KEY=...
+   AI_PROVIDER_PRIORITY=openrouter-first
+
+4. Optional Ollama model:
+   ollama pull qwen3:4b
+
+5. Run:
+   start-lepa.bat
+
+6. Open:
+   http://localhost:8080
+
+For development logs/hot reload use VS Code terminals:
+
+AI:
+  cd ai-service
+  .\.venv\Scripts\python.exe -m uvicorn main:app --host 127.0.0.1 --port 8000 --reload --log-level debug
+
+Backend:
+  cd backend
+  .\mvnw.cmd clean spring-boot:run
+
+Frontend:
+  cd frontend
+  npm run dev
+
+Then open http://localhost:5173
+
+v5 behavior:
+- empty dashboard = bank balance + active loans only
+- upload a PDF
+- document facts are extracted
+- LEPA combines them with balance, EMIs, salary timing and spending activity
+- dashboard shows dated Action Plan + What Happens Next + money to arrange
+- payments remain customer-authorized mock actions

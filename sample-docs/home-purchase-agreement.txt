@@ -1,0 +1,10 @@
+GREENFIELD RESIDENCES - PAYMENT SCHEDULE
+Customer: Demo Customer
+Property: Apartment B-1204
+Property value: INR 8,000,000
+Booking amount: INR 500,000 - paid
+Down payment: INR 1,500,000 due 10 November 2026
+Builder installment: INR 1,000,000 due 22 November 2026
+Registration target date: 30 November 2026
+Estimated registration and stamp duty reserve: INR 600,000
+Notes: Home insurance, utility activation and moving services are not included in the builder payment schedule.

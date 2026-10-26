@@ -1,0 +1,20 @@
+SYNTHETIC DEMO DOCUMENT — NOT A REAL BANK LETTER
+NOVA BANK
+HOME LOAN SANCTION LETTER
+
+Applicant: Demo Customer
+Property: Cedar Heights, Pune
+Sanctioned Loan Amount: ₹45,00,000
+Interest Rate: 8.65% p.a.
+Loan Tenure: 20 years
+
+PAYMENT / FUNDING REQUIREMENTS
+Processing Fee: ₹25,000 | Due: 05 November 2026 | Status: Pending
+Margin Contribution: ₹10,00,000 | Due: 10 November 2026 | Status: Pending
+Stamp Duty & Registration: ₹5,00,000 | Due: 20 November 2026 | Status: Pending
+First EMI: ₹43,750 | Due: 05 December 2026 | Status: Pending
+
+The sanctioned loan amount will be disbursed subject to completion of documentation,
+customer margin contribution and applicable property registration formalities.
+
+This document is synthetic and created only for the LEPA demonstration.

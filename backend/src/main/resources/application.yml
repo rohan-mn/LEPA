@@ -1,0 +1,41 @@
+server:
+  port: ${LEPA_PORT:8080}
+
+spring:
+  datasource:
+    # Default native demo database. Explicit H2 settings make startup independent
+    # of any DB_URL/DB_DRIVER variables that may exist in the Windows environment.
+    url: jdbc:h2:file:./data/lepa;MODE=PostgreSQL;DB_CLOSE_ON_EXIT=FALSE
+    username: sa
+    password: ""
+    driver-class-name: org.h2.Driver
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 12MB
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+  h2:
+    console:
+      enabled: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+lepa:
+  ai-service-url: ${AI_SERVICE_URL:http://localhost:8000}
+  seed-demo-journey: ${LEPA_SEED_DEMO_JOURNEY:false}
+  demo:
+    savings-balance: ${LEPA_BANK_SAVINGS_BALANCE:980000}
+    salary-balance: ${LEPA_BANK_SALARY_BALANCE:300000}
+    loan-outstanding: ${LEPA_BANK_LOAN_OUTSTANDING:675000}
+    loan-emi: ${LEPA_BANK_LOAN_EMI:22450}
+    monthly-income: ${LEPA_BANK_MONTHLY_INCOME:200000}
+    average-monthly-spend: ${LEPA_BANK_AVERAGE_MONTHLY_SPEND:110000}
+    reserve-buffer: ${LEPA_BANK_RESERVE_BUFFER:50000}

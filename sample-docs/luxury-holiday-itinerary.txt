@@ -1,0 +1,19 @@
+SYNTHETIC DEMO DOCUMENT — NOT A REAL TRAVEL BOOKING
+AURELIA PRIVATE TRAVEL
+MALDIVES LUXURY ESCAPE — PAYMENT ITINERARY
+
+Traveller: Demo Customer
+Travel Dates: 18 December 2026 to 26 December 2026
+Destination: Maldives
+
+PAYMENT SCHEDULE
+Business Class Flights: ₹2,40,000 | Due: 01 November 2026 | Status: Pending
+Resort Balance: ₹3,60,000 | Due: 05 November 2026 | Status: Pending
+Private Transfer: ₹80,000 | Due: 10 November 2026 | Status: Pending
+Experiences Package: ₹1,20,000 | Due: 20 November 2026 | Status: Pending
+Travel Insurance & Visa: ₹45,000 | Due: 25 November 2026 | Status: Pending
+
+The itinerary includes premium accommodation, seaplane transfers, private dining,
+spa treatments and curated marine experiences.
+
+This document is synthetic and created only for the LEPA demonstration.
